@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'internship_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'database-1',
+        'NAME': 'AWSproject',
         'USER': 'root',
         'PASSWORD': 'Mishank12.',
         'HOST': 'database-1.cgbujze7ghqf.ap-south-1.rds.amazonaws.com',
