@@ -10,7 +10,7 @@ from django import forms
 class DocumentForm(forms.ModelForm):
     class Meta:
         model = Document
-        fields = ('name', 'email', 'document', )
+        fields = ('name', 'email', 'mobile', 'document', )
 
 
 def home(request):
